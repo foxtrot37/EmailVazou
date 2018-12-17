@@ -35,7 +35,7 @@ def enviando(admin_m, admin_p, vazou_s):
         admin_p - senha do administrador
         vazou_s - email que foi vazado
         '''
-        #Messagem que vai ser enviada par a usuário
+        #Messagem que vai ser enviada para o usuário
         msg = 'Sua senha vazou faça a mudança imediatamente'
         #*mude esse dominio de email caso o seu seja diferente desse*
         smtp = smtplib.SMTP('smtp.gmail.com', 587)
